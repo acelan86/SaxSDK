@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B15D1A519FBCBB90022EBDB /* SaxSplashAdRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B15D1A419FBCBB90022EBDB /* SaxSplashAdRequestManager.m */; };
+		4B6E496519A64F9500AD75E0 /* SAXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E496419A64F9500AD75E0 /* SAXReachability.m */; };
+		4B6FD8E619AB0FFE007B2F9F /* SAXAdSplashBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FD8E519AB0FFE007B2F9F /* SAXAdSplashBrowerViewController.m */; };
+		4B8484F419FF7C7B00DCBBE4 /* SaxVersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8484F319FF7C7B00DCBBE4 /* SaxVersionUtil.m */; };
+		4B8F85B919A5CD40001E4B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8F85B819A5CD40001E4B32 /* Foundation.framework */; };
+		4B8F85F419A5CDA0001E4B32 /* SAXSCGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F85E019A5CDA0001E4B32 /* SAXSCGIFImageView.m */; };
+		4B8F85F519A5CDA0001E4B32 /* SAXTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F85E219A5CDA0001E4B32 /* SAXTimer.m */; };
+		4B8F85F919A5CDA0001E4B32 /* SAXInfoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F85EA19A5CDA0001E4B32 /* SAXInfoProvider.m */; };
+		4B8F85FA19A5CDA0001E4B32 /* SAXLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F85ED19A5CDA0001E4B32 /* SAXLogging.m */; };
+		4B8F860119A5CDB7001E4B32 /* SAXEGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F860019A5CDB7001E4B32 /* SAXEGOCache.m */; };
+		4B8F861119A5CDCC001E4B32 /* SAXAdParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F860419A5CDCC001E4B32 /* SAXAdParameter.m */; };
+		4B8F861219A5CDCC001E4B32 /* SAXAdParameterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F860619A5CDCC001E4B32 /* SAXAdParameterBuilder.m */; };
+		4B8F861319A5CDCC001E4B32 /* SAXAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F860819A5CDCC001E4B32 /* SAXAdRequest.m */; };
+		4B8F861419A5CDCC001E4B32 /* SAXAdRequestKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F860A19A5CDCC001E4B32 /* SAXAdRequestKeys.m */; };
+		4B8F861519A5CDCC001E4B32 /* SAXAdResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F860C19A5CDCC001E4B32 /* SAXAdResponse.m */; };
+		4B8F861619A5CDCC001E4B32 /* SAXAdResponseKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F860E19A5CDCC001E4B32 /* SAXAdResponseKeys.m */; };
+		4B8F861719A5CDCC001E4B32 /* SAXAdServerCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F861019A5CDCC001E4B32 /* SAXAdServerCommunicator.m */; };
+		4B8F861F19A5CDF2001E4B32 /* SAXNSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F861A19A5CDF2001E4B32 /* SAXNSStringUtil.m */; };
+		4B8F862019A5CDF2001E4B32 /* SAXDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F861C19A5CDF2001E4B32 /* SAXDateUtil.m */; };
+		4B8F862119A5CDF2001E4B32 /* SAXAnalyticsTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F861E19A5CDF2001E4B32 /* SAXAnalyticsTracker.m */; };
+		4B8F862719A5CE0F001E4B32 /* SAXSplashAdShowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F862419A5CE0F001E4B32 /* SAXSplashAdShowManager.m */; };
+		4B8F862819A5CE0F001E4B32 /* SAXSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F862619A5CE0F001E4B32 /* SAXSplashViewController.m */; };
+		4BBBE69619FCDE1C00E937A8 /* SaxSplashAdCacheUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBBE69519FCDE1C00E937A8 /* SaxSplashAdCacheUtil.m */; };
+		4BBBE69919FCED6600E937A8 /* SaxSplashAdUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBBE69819FCED6600E937A8 /* SaxSplashAdUtil.m */; };
+		4BF3677C19FE060C008C8077 /* SaxSplashAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3677B19FE060C008C8077 /* SaxSplashAdController.m */; };
+		CF66E56E1A7B594200BAAECC /* SaxNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF66E56D1A7B594200BAAECC /* SaxNavigationControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B8F85B319A5CD40001E4B32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B15D1A319FBCBB90022EBDB /* SaxSplashAdRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaxSplashAdRequestManager.h; sourceTree = "<group>"; };
+		4B15D1A419FBCBB90022EBDB /* SaxSplashAdRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaxSplashAdRequestManager.m; sourceTree = "<group>"; };
+		4B6E496319A64F9500AD75E0 /* SAXReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXReachability.h; sourceTree = "<group>"; };
+		4B6E496419A64F9500AD75E0 /* SAXReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXReachability.m; sourceTree = "<group>"; };
+		4B6FD8E419AB0FFE007B2F9F /* SAXAdSplashBrowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdSplashBrowerViewController.h; sourceTree = "<group>"; };
+		4B6FD8E519AB0FFE007B2F9F /* SAXAdSplashBrowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdSplashBrowerViewController.m; sourceTree = "<group>"; };
+		4B8484F219FF7C7B00DCBBE4 /* SaxVersionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaxVersionUtil.h; sourceTree = "<group>"; };
+		4B8484F319FF7C7B00DCBBE4 /* SaxVersionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaxVersionUtil.m; sourceTree = "<group>"; };
+		4B8F85B519A5CD40001E4B32 /* libSaxSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSaxSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8F85B819A5CD40001E4B32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B8F85BC19A5CD40001E4B32 /* SaxSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaxSDK-Prefix.pch"; sourceTree = "<group>"; };
+		4B8F85C619A5CD40001E4B32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B8F85DF19A5CDA0001E4B32 /* SAXSCGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXSCGIFImageView.h; sourceTree = "<group>"; };
+		4B8F85E019A5CDA0001E4B32 /* SAXSCGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXSCGIFImageView.m; sourceTree = "<group>"; };
+		4B8F85E119A5CDA0001E4B32 /* SAXTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXTimer.h; sourceTree = "<group>"; };
+		4B8F85E219A5CDA0001E4B32 /* SAXTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXTimer.m; sourceTree = "<group>"; };
+		4B8F85E919A5CDA0001E4B32 /* SAXInfoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXInfoProvider.h; sourceTree = "<group>"; };
+		4B8F85EA19A5CDA0001E4B32 /* SAXInfoProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXInfoProvider.m; sourceTree = "<group>"; };
+		4B8F85EB19A5CDA0001E4B32 /* SaxContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaxContants.h; sourceTree = "<group>"; };
+		4B8F85EC19A5CDA0001E4B32 /* SAXLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXLogging.h; sourceTree = "<group>"; };
+		4B8F85ED19A5CDA0001E4B32 /* SAXLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXLogging.m; sourceTree = "<group>"; };
+		4B8F85FF19A5CDB7001E4B32 /* SAXEGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXEGOCache.h; sourceTree = "<group>"; };
+		4B8F860019A5CDB7001E4B32 /* SAXEGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXEGOCache.m; sourceTree = "<group>"; };
+		4B8F860319A5CDCC001E4B32 /* SAXAdParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdParameter.h; sourceTree = "<group>"; };
+		4B8F860419A5CDCC001E4B32 /* SAXAdParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdParameter.m; sourceTree = "<group>"; };
+		4B8F860519A5CDCC001E4B32 /* SAXAdParameterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdParameterBuilder.h; sourceTree = "<group>"; };
+		4B8F860619A5CDCC001E4B32 /* SAXAdParameterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdParameterBuilder.m; sourceTree = "<group>"; };
+		4B8F860719A5CDCC001E4B32 /* SAXAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdRequest.h; sourceTree = "<group>"; };
+		4B8F860819A5CDCC001E4B32 /* SAXAdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdRequest.m; sourceTree = "<group>"; };
+		4B8F860919A5CDCC001E4B32 /* SAXAdRequestKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdRequestKeys.h; sourceTree = "<group>"; };
+		4B8F860A19A5CDCC001E4B32 /* SAXAdRequestKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdRequestKeys.m; sourceTree = "<group>"; };
+		4B8F860B19A5CDCC001E4B32 /* SAXAdResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdResponse.h; sourceTree = "<group>"; };
+		4B8F860C19A5CDCC001E4B32 /* SAXAdResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdResponse.m; sourceTree = "<group>"; };
+		4B8F860D19A5CDCC001E4B32 /* SAXAdResponseKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdResponseKeys.h; sourceTree = "<group>"; };
+		4B8F860E19A5CDCC001E4B32 /* SAXAdResponseKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdResponseKeys.m; sourceTree = "<group>"; };
+		4B8F860F19A5CDCC001E4B32 /* SAXAdServerCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdServerCommunicator.h; sourceTree = "<group>"; };
+		4B8F861019A5CDCC001E4B32 /* SAXAdServerCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdServerCommunicator.m; sourceTree = "<group>"; };
+		4B8F861919A5CDF2001E4B32 /* SAXNSStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXNSStringUtil.h; sourceTree = "<group>"; };
+		4B8F861A19A5CDF2001E4B32 /* SAXNSStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXNSStringUtil.m; sourceTree = "<group>"; };
+		4B8F861B19A5CDF2001E4B32 /* SAXDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXDateUtil.h; sourceTree = "<group>"; };
+		4B8F861C19A5CDF2001E4B32 /* SAXDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXDateUtil.m; sourceTree = "<group>"; };
+		4B8F861D19A5CDF2001E4B32 /* SAXAnalyticsTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAnalyticsTracker.h; sourceTree = "<group>"; };
+		4B8F861E19A5CDF2001E4B32 /* SAXAnalyticsTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAnalyticsTracker.m; sourceTree = "<group>"; };
+		4B8F862319A5CE0F001E4B32 /* SAXSplashAdShowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXSplashAdShowManager.h; sourceTree = "<group>"; };
+		4B8F862419A5CE0F001E4B32 /* SAXSplashAdShowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXSplashAdShowManager.m; sourceTree = "<group>"; };
+		4B8F862519A5CE0F001E4B32 /* SAXSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXSplashViewController.h; sourceTree = "<group>"; };
+		4B8F862619A5CE0F001E4B32 /* SAXSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXSplashViewController.m; sourceTree = "<group>"; };
+		4BBBE69419FCDE1C00E937A8 /* SaxSplashAdCacheUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaxSplashAdCacheUtil.h; sourceTree = "<group>"; };
+		4BBBE69519FCDE1C00E937A8 /* SaxSplashAdCacheUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaxSplashAdCacheUtil.m; sourceTree = "<group>"; };
+		4BBBE69719FCED6600E937A8 /* SaxSplashAdUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaxSplashAdUtil.h; sourceTree = "<group>"; };
+		4BBBE69819FCED6600E937A8 /* SaxSplashAdUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaxSplashAdUtil.m; sourceTree = "<group>"; };
+		4BF3677A19FE060C008C8077 /* SaxSplashAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaxSplashAdController.h; sourceTree = "<group>"; };
+		4BF3677B19FE060C008C8077 /* SaxSplashAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaxSplashAdController.m; sourceTree = "<group>"; };
+		CF66E56C1A7B594200BAAECC /* SaxNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaxNavigationControllerViewController.h; sourceTree = "<group>"; };
+		CF66E56D1A7B594200BAAECC /* SaxNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaxNavigationControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8F85B219A5CD40001E4B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8F85B919A5CD40001E4B32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8F85AC19A5CD40001E4B32 = {
+			isa = PBXGroup;
+			children = (
+				4B8F85BA19A5CD40001E4B32 /* SaxSDK */,
+				4B8F85B719A5CD40001E4B32 /* Frameworks */,
+				4B8F85B619A5CD40001E4B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8F85B619A5CD40001E4B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F85B519A5CD40001E4B32 /* libSaxSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8F85B719A5CD40001E4B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F85B819A5CD40001E4B32 /* Foundation.framework */,
+				4B8F85C619A5CD40001E4B32 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8F85BA19A5CD40001E4B32 /* SaxSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F862919A5CE23001E4B32 /* Reachability */,
+				4B8F862219A5CDF9001E4B32 /* SplashAd */,
+				4B8F861819A5CDDB001E4B32 /* Utility */,
+				4B8F860219A5CDBF001E4B32 /* AdServer */,
+				4B8F85FE19A5CDAA001E4B32 /* Cache */,
+				4B8F85DE19A5CD7B001E4B32 /* Common */,
+				4B8F85BB19A5CD40001E4B32 /* Supporting Files */,
+			);
+			path = SaxSDK;
+			sourceTree = "<group>";
+		};
+		4B8F85BB19A5CD40001E4B32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F85BC19A5CD40001E4B32 /* SaxSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B8F85DE19A5CD7B001E4B32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F85DF19A5CDA0001E4B32 /* SAXSCGIFImageView.h */,
+				4B8F85E019A5CDA0001E4B32 /* SAXSCGIFImageView.m */,
+				4B8F85E119A5CDA0001E4B32 /* SAXTimer.h */,
+				4B8F85E219A5CDA0001E4B32 /* SAXTimer.m */,
+				4B8F85E919A5CDA0001E4B32 /* SAXInfoProvider.h */,
+				4B8F85EA19A5CDA0001E4B32 /* SAXInfoProvider.m */,
+				4B8F85EB19A5CDA0001E4B32 /* SaxContants.h */,
+				4B8F85EC19A5CDA0001E4B32 /* SAXLogging.h */,
+				4B8F85ED19A5CDA0001E4B32 /* SAXLogging.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		4B8F85FE19A5CDAA001E4B32 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F85FF19A5CDB7001E4B32 /* SAXEGOCache.h */,
+				4B8F860019A5CDB7001E4B32 /* SAXEGOCache.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		4B8F860219A5CDBF001E4B32 /* AdServer */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F860319A5CDCC001E4B32 /* SAXAdParameter.h */,
+				4B8F860419A5CDCC001E4B32 /* SAXAdParameter.m */,
+				4B8F860519A5CDCC001E4B32 /* SAXAdParameterBuilder.h */,
+				4B8F860619A5CDCC001E4B32 /* SAXAdParameterBuilder.m */,
+				4B8F860719A5CDCC001E4B32 /* SAXAdRequest.h */,
+				4B8F860819A5CDCC001E4B32 /* SAXAdRequest.m */,
+				4B8F860919A5CDCC001E4B32 /* SAXAdRequestKeys.h */,
+				4B8F860A19A5CDCC001E4B32 /* SAXAdRequestKeys.m */,
+				4B8F860B19A5CDCC001E4B32 /* SAXAdResponse.h */,
+				4B8F860C19A5CDCC001E4B32 /* SAXAdResponse.m */,
+				4B8F860D19A5CDCC001E4B32 /* SAXAdResponseKeys.h */,
+				4B8F860E19A5CDCC001E4B32 /* SAXAdResponseKeys.m */,
+				4B8F860F19A5CDCC001E4B32 /* SAXAdServerCommunicator.h */,
+				4B8F861019A5CDCC001E4B32 /* SAXAdServerCommunicator.m */,
+			);
+			name = AdServer;
+			sourceTree = "<group>";
+		};
+		4B8F861819A5CDDB001E4B32 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F861919A5CDF2001E4B32 /* SAXNSStringUtil.h */,
+				4B8F861A19A5CDF2001E4B32 /* SAXNSStringUtil.m */,
+				4B8F861B19A5CDF2001E4B32 /* SAXDateUtil.h */,
+				4B8F861C19A5CDF2001E4B32 /* SAXDateUtil.m */,
+				4B8F861D19A5CDF2001E4B32 /* SAXAnalyticsTracker.h */,
+				4B8F861E19A5CDF2001E4B32 /* SAXAnalyticsTracker.m */,
+				4B8484F219FF7C7B00DCBBE4 /* SaxVersionUtil.h */,
+				4B8484F319FF7C7B00DCBBE4 /* SaxVersionUtil.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		4B8F862219A5CDF9001E4B32 /* SplashAd */ = {
+			isa = PBXGroup;
+			children = (
+				4B6FD8E419AB0FFE007B2F9F /* SAXAdSplashBrowerViewController.h */,
+				4B6FD8E519AB0FFE007B2F9F /* SAXAdSplashBrowerViewController.m */,
+				4B8F862319A5CE0F001E4B32 /* SAXSplashAdShowManager.h */,
+				4B8F862419A5CE0F001E4B32 /* SAXSplashAdShowManager.m */,
+				4B8F862519A5CE0F001E4B32 /* SAXSplashViewController.h */,
+				4B8F862619A5CE0F001E4B32 /* SAXSplashViewController.m */,
+				4B15D1A319FBCBB90022EBDB /* SaxSplashAdRequestManager.h */,
+				4B15D1A419FBCBB90022EBDB /* SaxSplashAdRequestManager.m */,
+				CF66E56C1A7B594200BAAECC /* SaxNavigationControllerViewController.h */,
+				CF66E56D1A7B594200BAAECC /* SaxNavigationControllerViewController.m */,
+				4BBBE69419FCDE1C00E937A8 /* SaxSplashAdCacheUtil.h */,
+				4BBBE69519FCDE1C00E937A8 /* SaxSplashAdCacheUtil.m */,
+				4BBBE69719FCED6600E937A8 /* SaxSplashAdUtil.h */,
+				4BBBE69819FCED6600E937A8 /* SaxSplashAdUtil.m */,
+				4BF3677A19FE060C008C8077 /* SaxSplashAdController.h */,
+				4BF3677B19FE060C008C8077 /* SaxSplashAdController.m */,
+			);
+			name = SplashAd;
+			sourceTree = "<group>";
+		};
+		4B8F862919A5CE23001E4B32 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4B6E496319A64F9500AD75E0 /* SAXReachability.h */,
+				4B6E496419A64F9500AD75E0 /* SAXReachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8F85B419A5CD40001E4B32 /* SaxSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8F85D819A5CD40001E4B32 /* Build configuration list for PBXNativeTarget "SaxSDK" */;
+			buildPhases = (
+				4B8F85B119A5CD40001E4B32 /* Sources */,
+				4B8F85B219A5CD40001E4B32 /* Frameworks */,
+				4B8F85B319A5CD40001E4B32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaxSDK;
+			productName = SaxSDK;
+			productReference = 4B8F85B519A5CD40001E4B32 /* libSaxSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8F85AD19A5CD40001E4B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sina;
+			};
+			buildConfigurationList = 4B8F85B019A5CD40001E4B32 /* Build configuration list for PBXProject "SaxSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B8F85AC19A5CD40001E4B32;
+			productRefGroup = 4B8F85B619A5CD40001E4B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8F85B419A5CD40001E4B32 /* SaxSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8F85B119A5CD40001E4B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8F85F519A5CDA0001E4B32 /* SAXTimer.m in Sources */,
+				4BF3677C19FE060C008C8077 /* SaxSplashAdController.m in Sources */,
+				4B15D1A519FBCBB90022EBDB /* SaxSplashAdRequestManager.m in Sources */,
+				4B8F861119A5CDCC001E4B32 /* SAXAdParameter.m in Sources */,
+				4B8F85F419A5CDA0001E4B32 /* SAXSCGIFImageView.m in Sources */,
+				4BBBE69919FCED6600E937A8 /* SaxSplashAdUtil.m in Sources */,
+				4B6E496519A64F9500AD75E0 /* SAXReachability.m in Sources */,
+				4B8F862719A5CE0F001E4B32 /* SAXSplashAdShowManager.m in Sources */,
+				4BBBE69619FCDE1C00E937A8 /* SaxSplashAdCacheUtil.m in Sources */,
+				4B8F862819A5CE0F001E4B32 /* SAXSplashViewController.m in Sources */,
+				4B8F861319A5CDCC001E4B32 /* SAXAdRequest.m in Sources */,
+				4B8F861F19A5CDF2001E4B32 /* SAXNSStringUtil.m in Sources */,
+				CF66E56E1A7B594200BAAECC /* SaxNavigationControllerViewController.m in Sources */,
+				4B8F861219A5CDCC001E4B32 /* SAXAdParameterBuilder.m in Sources */,
+				4B8F861619A5CDCC001E4B32 /* SAXAdResponseKeys.m in Sources */,
+				4B6FD8E619AB0FFE007B2F9F /* SAXAdSplashBrowerViewController.m in Sources */,
+				4B8F85F919A5CDA0001E4B32 /* SAXInfoProvider.m in Sources */,
+				4B8F862019A5CDF2001E4B32 /* SAXDateUtil.m in Sources */,
+				4B8F861519A5CDCC001E4B32 /* SAXAdResponse.m in Sources */,
+				4B8F85FA19A5CDA0001E4B32 /* SAXLogging.m in Sources */,
+				4B8484F419FF7C7B00DCBBE4 /* SaxVersionUtil.m in Sources */,
+				4B8F860119A5CDB7001E4B32 /* SAXEGOCache.m in Sources */,
+				4B8F861419A5CDCC001E4B32 /* SAXAdRequestKeys.m in Sources */,
+				4B8F861719A5CDCC001E4B32 /* SAXAdServerCommunicator.m in Sources */,
+				4B8F862119A5CDF2001E4B32 /* SAXAnalyticsTracker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B8F85D619A5CD40001E4B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos8.0;
+			};
+			name = Debug;
+		};
+		4B8F85D719A5CD40001E4B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos8.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8F85D919A5CD40001E4B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SaxSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxSDK/SaxSDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B8F85DA19A5CD40001E4B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SaxSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxSDK/SaxSDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8F85B019A5CD40001E4B32 /* Build configuration list for PBXProject "SaxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8F85D619A5CD40001E4B32 /* Debug */,
+				4B8F85D719A5CD40001E4B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8F85D819A5CD40001E4B32 /* Build configuration list for PBXNativeTarget "SaxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8F85D919A5CD40001E4B32 /* Debug */,
+				4B8F85DA19A5CD40001E4B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8F85AD19A5CD40001E4B32 /* Project object */;
+}

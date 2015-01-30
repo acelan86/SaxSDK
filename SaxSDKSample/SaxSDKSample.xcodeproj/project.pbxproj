@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B24638419FA471F00514307 /* SaxSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B24638319FA471F00514307 /* SaxSDKBundle.bundle */; };
+		4B46A90F19F8F133009C3F5A /* SAXMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46A90D19F8F133009C3F5A /* SAXMediaViewController.m */; };
+		4B46A91019F8F133009C3F5A /* SAXMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B46A90E19F8F133009C3F5A /* SAXMediaViewController.xib */; };
+		4B82934F19A98A140066461A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B82934E19A98A140066461A /* Foundation.framework */; };
+		4B82935119A98A140066461A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B82935019A98A140066461A /* CoreGraphics.framework */; };
+		4B82935319A98A140066461A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B82935219A98A140066461A /* UIKit.framework */; };
+		4B82935919A98A150066461A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B82935719A98A140066461A /* InfoPlist.strings */; };
+		4B82935B19A98A150066461A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82935A19A98A150066461A /* main.m */; };
+		4B82936119A98A150066461A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B82936019A98A150066461A /* Images.xcassets */; };
+		4B82938519A98AC40066461A /* SAXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82937E19A98AC40066461A /* SAXAppDelegate.m */; };
+		4B82938619A98AC40066461A /* SAXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82938019A98AC40066461A /* SAXRootViewController.m */; };
+		4B82938719A98AC40066461A /* SAXRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B82938119A98AC40066461A /* SAXRootViewController.xib */; };
+		4B82938819A98AC40066461A /* SAXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82938419A98AC40066461A /* SAXViewController.m */; };
+		4B82938E19A98EFE0066461A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B82938D19A98EFE0066461A /* SystemConfiguration.framework */; };
+		4B82939019A98F050066461A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B82938F19A98F050066461A /* CoreTelephony.framework */; };
+		4B82939219A98F0E0066461A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B82939119A98F0E0066461A /* ImageIO.framework */; };
+		4B9B21221A00880D004F9D05 /* SAXAdBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B21211A00880D004F9D05 /* SAXAdBrowerViewController.m */; };
+		4B9F2E1219AC7D4D00F467AA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B82938B19A98EF70066461A /* AdSupport.framework */; };
+		CF66E56B1A7B57F900BAAECC /* libSaxSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF66E56A1A7B57F900BAAECC /* libSaxSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B24638319FA471F00514307 /* SaxSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SaxSDKBundle.bundle; sourceTree = "<group>"; };
+		4B46A90C19F8F133009C3F5A /* SAXMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXMediaViewController.h; sourceTree = "<group>"; };
+		4B46A90D19F8F133009C3F5A /* SAXMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXMediaViewController.m; sourceTree = "<group>"; };
+		4B46A90E19F8F133009C3F5A /* SAXMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAXMediaViewController.xib; sourceTree = "<group>"; };
+		4B82934B19A98A140066461A /* SaxSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaxSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B82934E19A98A140066461A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B82935019A98A140066461A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B82935219A98A140066461A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B82935619A98A140066461A /* SaxSDKSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaxSDKSample-Info.plist"; sourceTree = "<group>"; };
+		4B82935819A98A140066461A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B82935A19A98A150066461A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B82935C19A98A150066461A /* SaxSDKSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaxSDKSample-Prefix.pch"; sourceTree = "<group>"; };
+		4B82936019A98A150066461A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B82936719A98A150066461A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B82937D19A98AC40066461A /* SAXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAppDelegate.h; sourceTree = "<group>"; };
+		4B82937E19A98AC40066461A /* SAXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAppDelegate.m; sourceTree = "<group>"; };
+		4B82937F19A98AC40066461A /* SAXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXRootViewController.h; sourceTree = "<group>"; };
+		4B82938019A98AC40066461A /* SAXRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXRootViewController.m; sourceTree = "<group>"; };
+		4B82938119A98AC40066461A /* SAXRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAXRootViewController.xib; sourceTree = "<group>"; };
+		4B82938319A98AC40066461A /* SAXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXViewController.h; sourceTree = "<group>"; };
+		4B82938419A98AC40066461A /* SAXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXViewController.m; sourceTree = "<group>"; };
+		4B82938B19A98EF70066461A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4B82938D19A98EFE0066461A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4B82938F19A98F050066461A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4B82939119A98F0E0066461A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4B8DF85119FE12E10055F09A /* SaxSplashAdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaxSplashAdController.h; sourceTree = "<group>"; };
+		4B9B21201A00880D004F9D05 /* SAXAdBrowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXAdBrowerViewController.h; sourceTree = "<group>"; };
+		4B9B21211A00880D004F9D05 /* SAXAdBrowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXAdBrowerViewController.m; sourceTree = "<group>"; };
+		4B9F2E0B19AC643F00F467AA /* libSaxSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSaxSDK.a; path = "../../../../../../../../Library/Developer/Xcode/DerivedData/SaxSDK-ggiwmejcbdhtpycpuozqeobjxpzh/Build/Products/Debug-iphoneos/libSaxSDK.a"; sourceTree = "<group>"; };
+		CF66E5681A7B571100BAAECC /* libSaxSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSaxSDK.a; path = "../SaxSDK/build/Debug-iphoneos/libSaxSDK.a"; sourceTree = "<group>"; };
+		CF66E56A1A7B57F900BAAECC /* libSaxSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSaxSDK.a; path = "../../../../Library/Developer/Xcode/DerivedData/SaxSDK-csmikuaywnmbukfxprdmurkamdov/Build/Products/Debug-iphoneos/libSaxSDK.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B82934819A98A140066461A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF66E56B1A7B57F900BAAECC /* libSaxSDK.a in Frameworks */,
+				4B9F2E1219AC7D4D00F467AA /* AdSupport.framework in Frameworks */,
+				4B82939219A98F0E0066461A /* ImageIO.framework in Frameworks */,
+				4B82939019A98F050066461A /* CoreTelephony.framework in Frameworks */,
+				4B82938E19A98EFE0066461A /* SystemConfiguration.framework in Frameworks */,
+				4B82935119A98A140066461A /* CoreGraphics.framework in Frameworks */,
+				4B82935319A98A140066461A /* UIKit.framework in Frameworks */,
+				4B82934F19A98A140066461A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B82934219A98A140066461A = {
+			isa = PBXGroup;
+			children = (
+				4B82935419A98A140066461A /* SaxSDKSample */,
+				4B82934D19A98A140066461A /* Frameworks */,
+				4B82934C19A98A140066461A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B82934C19A98A140066461A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B82934B19A98A140066461A /* SaxSDKSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B82934D19A98A140066461A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF66E56A1A7B57F900BAAECC /* libSaxSDK.a */,
+				CF66E5681A7B571100BAAECC /* libSaxSDK.a */,
+				4B9F2E0B19AC643F00F467AA /* libSaxSDK.a */,
+				4B82939119A98F0E0066461A /* ImageIO.framework */,
+				4B82938F19A98F050066461A /* CoreTelephony.framework */,
+				4B82938D19A98EFE0066461A /* SystemConfiguration.framework */,
+				4B82938B19A98EF70066461A /* AdSupport.framework */,
+				4B82934E19A98A140066461A /* Foundation.framework */,
+				4B82935019A98A140066461A /* CoreGraphics.framework */,
+				4B82935219A98A140066461A /* UIKit.framework */,
+				4B82936719A98A150066461A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B82935419A98A140066461A /* SaxSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				4B9B21201A00880D004F9D05 /* SAXAdBrowerViewController.h */,
+				4B9B21211A00880D004F9D05 /* SAXAdBrowerViewController.m */,
+				4B8DF85119FE12E10055F09A /* SaxSplashAdController.h */,
+				4B82937D19A98AC40066461A /* SAXAppDelegate.h */,
+				4B82937E19A98AC40066461A /* SAXAppDelegate.m */,
+				4B82937F19A98AC40066461A /* SAXRootViewController.h */,
+				4B82938019A98AC40066461A /* SAXRootViewController.m */,
+				4B82938119A98AC40066461A /* SAXRootViewController.xib */,
+				4B82938319A98AC40066461A /* SAXViewController.h */,
+				4B82938419A98AC40066461A /* SAXViewController.m */,
+				4B82936019A98A150066461A /* Images.xcassets */,
+				4B82935519A98A140066461A /* Supporting Files */,
+				4B46A90C19F8F133009C3F5A /* SAXMediaViewController.h */,
+				4B46A90D19F8F133009C3F5A /* SAXMediaViewController.m */,
+				4B46A90E19F8F133009C3F5A /* SAXMediaViewController.xib */,
+			);
+			path = SaxSDKSample;
+			sourceTree = "<group>";
+		};
+		4B82935519A98A140066461A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B24638319FA471F00514307 /* SaxSDKBundle.bundle */,
+				4B82935619A98A140066461A /* SaxSDKSample-Info.plist */,
+				4B82935719A98A140066461A /* InfoPlist.strings */,
+				4B82935A19A98A150066461A /* main.m */,
+				4B82935C19A98A150066461A /* SaxSDKSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B82934A19A98A140066461A /* SaxSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B82937719A98A150066461A /* Build configuration list for PBXNativeTarget "SaxSDKSample" */;
+			buildPhases = (
+				4B82934719A98A140066461A /* Sources */,
+				4B82934819A98A140066461A /* Frameworks */,
+				4B82934919A98A140066461A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaxSDKSample;
+			productName = SaxSDKSample;
+			productReference = 4B82934B19A98A140066461A /* SaxSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B82934319A98A140066461A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sina;
+				TargetAttributes = {
+					4B82934A19A98A140066461A = {
+						DevelopmentTeam = 6WT5CPG2K9;
+					};
+				};
+			};
+			buildConfigurationList = 4B82934619A98A140066461A /* Build configuration list for PBXProject "SaxSDKSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B82934219A98A140066461A;
+			productRefGroup = 4B82934C19A98A140066461A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B82934A19A98A140066461A /* SaxSDKSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B82934919A98A140066461A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B82938719A98AC40066461A /* SAXRootViewController.xib in Resources */,
+				4B24638419FA471F00514307 /* SaxSDKBundle.bundle in Resources */,
+				4B82935919A98A150066461A /* InfoPlist.strings in Resources */,
+				4B46A91019F8F133009C3F5A /* SAXMediaViewController.xib in Resources */,
+				4B82936119A98A150066461A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B82934719A98A140066461A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B82935B19A98A150066461A /* main.m in Sources */,
+				4B9B21221A00880D004F9D05 /* SAXAdBrowerViewController.m in Sources */,
+				4B82938819A98AC40066461A /* SAXViewController.m in Sources */,
+				4B82938519A98AC40066461A /* SAXAppDelegate.m in Sources */,
+				4B82938619A98AC40066461A /* SAXRootViewController.m in Sources */,
+				4B46A90F19F8F133009C3F5A /* SAXMediaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B82935719A98A140066461A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B82935819A98A140066461A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B82937519A98A150066461A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qiang Wu (B7BC8B5HY2)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B82937619A98A150066461A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qiang Wu (B7BC8B5HY2)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B82937819A98A150066461A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxSDKSample/SaxSDKSample-Prefix.pch";
+				INFOPLIST_FILE = "SaxSDKSample/SaxSDKSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SaxSDK-ggiwmejcbdhtpycpuozqeobjxpzh/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/SaxSDKSample",
+					"/Users/wuqiang/develop/work/sdk/workspace/sax-sdk/ios/sax-sdk/SaxSDK/build/Debug-iphoneos",
+					"/Users/acelan/sina/svn/SaxSDK_1.0.3/SaxSDK/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SaxSDK-csmikuaywnmbukfxprdmurkamdov/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37F2D01F-CCE2-457A-BEC1-A79A1D387842";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B82937919A98A150066461A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxSDKSample/SaxSDKSample-Prefix.pch";
+				INFOPLIST_FILE = "SaxSDKSample/SaxSDKSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SaxSDK-ggiwmejcbdhtpycpuozqeobjxpzh/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/SaxSDKSample",
+					"/Users/wuqiang/develop/work/sdk/workspace/sax-sdk/ios/sax-sdk/SaxSDK/build/Debug-iphoneos",
+					"/Users/acelan/sina/svn/SaxSDK_1.0.3/SaxSDK/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SaxSDK-csmikuaywnmbukfxprdmurkamdov/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37F2D01F-CCE2-457A-BEC1-A79A1D387842";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B82934619A98A140066461A /* Build configuration list for PBXProject "SaxSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B82937519A98A150066461A /* Debug */,
+				4B82937619A98A150066461A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B82937719A98A150066461A /* Build configuration list for PBXNativeTarget "SaxSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B82937819A98A150066461A /* Debug */,
+				4B82937919A98A150066461A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B82934319A98A140066461A /* Project object */;
+}
